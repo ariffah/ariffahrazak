@@ -95,7 +95,7 @@ void ngethostbyname(unsigned char *host , int query_type)
  
     struct sockaddr_in a;
  
-    struct RES_RECORD answers[20],auth[20],addit[20]; 
+    struct RES_RECORD answers[30],auth[30],addit[30]; 
     struct sockaddr_in dest;
  
     struct DNS_HEADER *dns = NULL;
